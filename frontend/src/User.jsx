@@ -1,5 +1,5 @@
 import Button from "./Button/Button";
-import GoalCard from "./GoalCard"
+import GoalCard from "./GoalCard/GoalCard"
 
 function User() {
 
