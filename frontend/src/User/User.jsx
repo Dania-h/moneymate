@@ -1,19 +1,29 @@
-import Button from "../Button/Button"
-import GoalCard from "../GoalCard/GoalCard"
-import profile from "../assets/money_1141783.png"
-import "./User.css"
+import Button from "../Button/Button";
+import GoalCard from "../GoalCard/GoalCard";
+import profile from "../assets/money_1141783.png";
+import logo from "../assets/mm_logo.png";
+import "./User.css";
 
 function User() {
   return (
-    <section>
-      <div className="hello-user">
-        <img className="profile-pic" src={profile} alt="profile picture" />
-        <h1>Hello Dania!</h1>
-      </div>
+    <>
+      <header>
+        <img src={logo} alt="moneymate logo" />
+      </header>
+      <section className="user-profile">
+        <div className="hello-user">
+          <img className="profile-pic" src={profile} alt="profile picture" />
+          <h1>Hello Dania!</h1>
+        </div>
 
-      <GoalCard />
-      <Button text="Find a match" />
-    </section>
+        <div className="card-container">
+          <GoalCard />
+          <GoalCard />
+          <GoalCard />
+        </div>
+        <Button text="Find a match" />
+      </section>
+    </>
   );
 }
 

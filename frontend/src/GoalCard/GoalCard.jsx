@@ -7,7 +7,7 @@ function GoalCard() {
       <h2>Budgeting</h2>
       <div className="goal">
         <button>
-          <img src={plus} />
+          <img src={plus} alt="plus"/>
           Add personal milestone
         </button>
       </div>

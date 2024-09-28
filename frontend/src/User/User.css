@@ -1,3 +1,12 @@
+header {
+    background-color: #006d77;
+    padding: 1.5rem 6rem;
+}
+
+.user-profile {
+    padding: 1.5rem 6rem;
+}
+
 h1 {
     font-size: 2rem;
 }
@@ -16,4 +25,10 @@ h1 {
     border-radius: 50%;
     object-fit: contain;
     margin-right: 1rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
