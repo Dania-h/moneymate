@@ -7,6 +7,11 @@
     border-radius: 12px;
 }
 
+.goal-card h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 .goal {
     background-color: #f6f6f6;
     border-radius: 12px;
