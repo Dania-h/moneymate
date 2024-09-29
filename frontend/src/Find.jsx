@@ -1,6 +1,7 @@
 import BuddyCard from "./BuddyCard/BuddyCard";
 import profile1 from "./assets/profile1.png";
 import profile2 from "./assets/profile2.png";
+import profile3 from "./assets/profile3.png"
 
 function Find() {
   const buddies = [
@@ -10,7 +11,7 @@ function Find() {
       picture: profile1,
       language: "EN",
       bio: "Hi everyone! I need some help staying on track to save up money for a home.",
-      financialGoals: ["Home Buying", "Emergency Fund"],
+      financialGoals: ["Home Buying", "Emergency Fund"]
     },
     {
       id: 2,
@@ -18,8 +19,16 @@ function Find() {
       picture: profile2,
       language: "SP",
       bio: "hola gente necesito ayuda porque me quedo sin dinero cada mes",
-      financialGoals: ["Budgeting"],
+      financialGoals: ["Budgeting"]
     },
+    {
+      id: 3,
+      username: "TheGodfather",
+      picture: profile3,
+      language: "EN",
+      bio: "Need some help on learning how to invest. I can keep you accountable for your spending.",
+      financialGoals: ["Investing", "Retirement"]
+    }
   ];
 
   return (
