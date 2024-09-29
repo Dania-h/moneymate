@@ -11,14 +11,18 @@ function BuddyCard({ username, picture, language, bio, financialGoals }) {
         minHeight: "26em",
         display: "flex",
         flexDirection: "column",
-        justifyContent: "space-around"
+        justifyContent: "space-around",
       }}
     >
       <div className="pic-name">
         <img className="profile-pic" src={picture} />
         <h2>{username}</h2>
-        <img src={(language == "EN") ? usflag : spflag} style={{ marginLeft: "1rem" }} />
-        <p>{language}</p>
+      </div>
+      <div style={{ display: "flex", maxHeight: "24px", alignContent: "center"}}>
+        <img
+          src={language == "EN" ? usflag : spflag}
+        />
+        <p style={{ margin: "0 0.5rem" }}>{language}</p>
       </div>
       <div>
         <h3>Bio</h3>
