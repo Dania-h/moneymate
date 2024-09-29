@@ -10,3 +10,8 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+header {
+  background-color: #006d77;
+  padding: 1.5rem 6rem;
+}
