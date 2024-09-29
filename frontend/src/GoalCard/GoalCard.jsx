@@ -5,17 +5,17 @@ import "./GoalCard.css";
 import MilestoneInput from "../MilestoneInput/MilestoneInput";
 
 function GoalCard({ title }) {
-  const [showComponent, setShowComponent] = useState(false);
+  const [inputItems, setInputItems] = useState([]);
 
   const handleClick = () => {
-    setShowComponent(true);
-  };
+    setInputItems([...inputItems, <MilestoneInput key={inputItems.length} />])
+  }
 
   return (
     <section className="goal-card">
       <h2>{title}</h2>
       <div className="milestones">
-        {showComponent && <MilestoneInput />}
+        {inputItems}
         <button className="add" onClick={handleClick}>
           <img src={plus} alt="plus"/>
           Add milestone
