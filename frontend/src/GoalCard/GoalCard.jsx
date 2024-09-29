@@ -12,7 +12,7 @@ function GoalCard({ title }) {
   }
 
   return (
-    <section className="goal-card">
+    <div className="card">
       <h2>{title}</h2>
       <div className="milestones">
         {inputItems}
@@ -21,7 +21,7 @@ function GoalCard({ title }) {
           Add milestone
         </button>
       </div>
-    </section>
+    </div>
   );
 }
 

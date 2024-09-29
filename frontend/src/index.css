@@ -15,3 +15,42 @@ header {
   background-color: #006d77;
   padding: 1.5rem 6rem;
 }
+
+img.profile-pic {
+  position: relative;
+  box-shadow: 0px 0px 10px 0px #E4E4E4;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+
+.card {
+  box-shadow: 0px 0px 10px 0px #E4E4E4;
+  width: 20%;
+  height: fit-content;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 12px;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: gray;
+}
+
+.pic-name {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+p {
+  font-size: .875rem;
+}

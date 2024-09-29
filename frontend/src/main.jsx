@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import './index.css'
 import logo from "./assets/mm_logo.png";
-import Find from './Find/Find.jsx'
+import Find from './Find.jsx'
 
 const router = createBrowserRouter([
   {
