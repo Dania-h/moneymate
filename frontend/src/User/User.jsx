@@ -17,9 +17,9 @@ function User() {
         </div>
 
         <div className="card-container">
-          <GoalCard />
-          <GoalCard />
-          <GoalCard />
+          <GoalCard title="Budgeting"/>
+          <GoalCard title="Emergency Fund"/>
+          <GoalCard title="Retirement"/>
         </div>
         <Button text="Find a match" />
       </section>
