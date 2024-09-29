@@ -1,12 +1,13 @@
 import PropTypes from "prop-types";
 import Button from "../Button/Button";
 
-function BuddyCard({ username, picture, bio, financialGoals }) {
+function BuddyCard({ username, picture, language, bio, financialGoals }) {
   return (
     <div className="card">
       <div className="pic-name">
         <img className="profile-pic" src={picture} />
         <h2>{username}</h2>
+        <p style={{ marginLeft: "1rem" }}>{language}</p>
       </div>
       <div>
         <h3>Bio</h3>
@@ -26,6 +27,7 @@ function BuddyCard({ username, picture, bio, financialGoals }) {
 BuddyCard.propTypes = {
   username: PropTypes.string.isRequired,
   picture: PropTypes.node.isRequired,
+  language: PropTypes.string.isRequired,
   bio: PropTypes.string,
   financialGoals: PropTypes.array,
 };

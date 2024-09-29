@@ -8,7 +8,7 @@ function Find() {
       id: 1,
       username: "JaneyJane",
       picture: profile1,
-      language: "English",
+      language: "EN",
       bio: "Hi everyone! I need some help staying on track to save up money for a home.",
       financialGoals: ["Home Buying", "Emergency Fund"],
     },
@@ -16,7 +16,7 @@ function Find() {
       id: 2,
       username: "HombreCash",
       picture: profile2,
-      language: "Spanish",
+      language: "SP",
       bio: "hola gente necesito ayuda porque me quedo sin dinero cada mes",
       financialGoals: ["Budgeting"],
     },
@@ -30,6 +30,7 @@ function Find() {
             key={buddy.id}
             username={buddy.username}
             picture={buddy.picture}
+            language={buddy.language}
             bio={buddy.bio}
             financialGoals={buddy.financialGoals}
           />
